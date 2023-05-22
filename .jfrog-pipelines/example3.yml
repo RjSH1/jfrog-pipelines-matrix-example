@@ -20,9 +20,9 @@ pipelines:
           multiNode: true
         stepletMultipliers:
           nodePools:
-            - windows
-            - linux
-            - mac
+            - windowsNP
+            - ubuntuNP
+            - macNP
           environmentVariables:             # Sets of environment variables for steplets
             - animal:    dog                # - Set 1
               mineral:   copper
