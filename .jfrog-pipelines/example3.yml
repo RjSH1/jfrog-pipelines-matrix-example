@@ -22,7 +22,7 @@ pipelines:
           nodePools:
             - windowsNP
             - ubuntuNP
-            - macNP
+            #- macNP
           environmentVariables:             # Sets of environment variables for steplets
             - animal:    dog                # - Set 1
               mineral:   copper
