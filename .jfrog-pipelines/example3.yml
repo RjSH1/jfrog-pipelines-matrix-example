@@ -21,8 +21,8 @@ pipelines:
         stepletMultipliers:
           nodePools:
             - windows
-            - ubuntu_18
-            - ubuntu_16
+            - linux
+            - mac
           environmentVariables:             # Sets of environment variables for steplets
             - animal:    dog                # - Set 1
               mineral:   copper
